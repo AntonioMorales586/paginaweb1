@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="shutcut icon"
+      sizes="32x32"
+      href="img/favicon-32x32-removebg-preview.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enigma Paranormal</title>
+  </head>
+  <body>
+    <div class="menu">
+      <button><a href="Fantasmas.html">Fantasmas</a></button
+      ><button><a href="Objetos.html">Objetos</a></button
+      ><button><a href="Formulario.html">Formulario</a></button
+      ><a class="logo" href="Portada.html"
+        ><img
+          class="phasmo"
+          src="img/debnwtd-10340a16-e200-4b3c-a8cc-475d528ea8c7.png"
+      /></a>
+    </div>
+    <p class="laurentexto">
+      En un pueblo olvidado, una mansión abandonada susurraba historias de
+      horror. Un grupo de amigos desafió las advertencias y exploró sus sombríos
+      pasillos. Descubrieron una caja antigua en el sótano, llena de fotografías
+      perturbadoras. De repente, la habitación se sumió en la oscuridad, las
+      imágenes cobraron vida, y una voz inquietante resonó. La historia queda
+      incompleta, pues nadie sabe si los jóvenes escaparon o si la mansión los
+      absorbió en su eterna pesadilla.
+    </p>
+    <div class="cuadroaudio">
+      <img
+        id="Audio1"
+        onclick="Audio1"
+        src="img/Polaroid-frame-photo-template-design-Graphics-16251396-1-580x386-removebg-preview.png"
+      />
+    </div>
+    <div class="cuadroaudio">
+      <img
+        id="Audio2"
+        onclick="Audio2"
+        src="img/Polaroid-frame-photo-template-design-Graphics-16251396-1-580x386-removebg-preview.png"
+      />
+    </div>
+    <audio
+      id="sonido"
+      src="img/phasmophobia-ghost-attack-1_b6tVbw6.mp3"
+      hidden
+    ></audio>
+    <audio id="sonido2" src="img/phasmophobia-singing-ghost.mp3" hidden></audio>
+    <script>
+      var audio = document.getElementById("sonido");
+      document.getElementById("Audio1").addEventListener("click", function () {
+        audio.play();
+        alert();
+      });
+      var audio = document.getElementById("sonido2");
+      document.getElementById("Audio2").addEventListener("click", function () {
+        audio.play();
+        alert();
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,348 @@
+/*Empezamos la pagina con el body que va a ocupar la mayoria de los html*/
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url(img/f.elconfidencial.com_original_d9e_66d_793_d9e66d793adbc994841e60850a17e61c.jpg);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.portada {
+  background-image: url(img/f.elconfidencial.com_original_d9e_66d_793_d9e66d793adbc994841e60850a17e61c.jpg);
+  height: 250vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.titulo {
+  color: white;
+  text-align: center;
+  font-size: 4rem;
+  margin-left: 3rem;
+}
+/*Este cuadro es la primera parte del contenido de la portada puesto a la derecha */
+/*En el pie de oagina encontramos un muñeco para volver hacia la portada una linterna para ir a la tabla de objetos y una carta para ir al formulario*/
+
+/*TEnemos el pentagono que al clickar nos llevara la ver los fnatasmas*/
+.menu {
+  width: 100%;
+  min-width: 100%;
+  height: 10rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu button {
+  border-color: rgba(240, 248, 255, 0);
+  background-color: rgba(0, 0, 0, 0);
+  height: 3rem;
+  margin-right: 7rem;
+  width: 10rem;
+}
+.menu button a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: white;
+}
+.phasmo {
+  height: 7rem;
+  width: 7rem;
+}
+.titulo2{
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+.mitad {
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  background-size: 60rem 40rem;
+  background-repeat: no-repeat;
+  background-image: url(img/Captura\ de\ pantalla\ 2023-12-01\ 140854.jpg);
+  margin-top: 10rem;
+  height: 30rem;
+  color: black;
+}
+.historia1 {
+  height: 20rem;
+  display: flex;
+  width: 30rem;
+  margin-top: 2rem;
+}
+.historia2  {
+  height: 20rem;
+  display: flex;
+  width: 20rem;
+  margin-top: 3rem;
+}
+.Walter {
+  height: 10rem;
+  text-align: center;
+  display: flex;
+  font-size: 2rem;
+}
+.Verhistorias {
+  color: white;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+.cambiarpagina {
+  margin-top: 4rem;
+  display: flex;
+  height: 20rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20rem 20rem;
+  background-image: url(img/pentagono.png);
+}
+.fotos {
+  display: flex;
+  float: right;
+  margin-right: 5rem;
+  margin-top: -15rem;
+}
+/*Aqui empieza la tabla con los objetos*/
+table {
+  background-image: url(img/Captura\ de\ pantalla\ 2023-12-01\ 140854.jpg);
+  border-collapse: collapse;
+  text-align: center;
+}
+.Listaobjetos {
+  background-position: 57% 100%;
+  background-size: 83rem 60rem;
+  min-width: 83rem;
+  min-height: 60rem;
+  background-repeat: no-repeat;
+}
+.Tituloobjetos {
+  font-family: "Permanent Marker", cursive;
+  font-size: 10rem;
+  margin-left: 33%;
+  color: white;
+}
+td,
+th {
+  min-height: 50rem;
+  min-width: 80%;
+  padding: 0.2rem 0.5rem;
+}
+.Listaobjetos {
+  min-height: 50rem;
+  min-width: 80%;
+  padding-top: 10rem;
+  padding-left: 20%;
+}
+.tablaobjetos {
+  height: 50rem;
+  width: 80%;
+  font-size: 1.2rem;
+}
+.fotoequipo {
+  width: 10rem;
+  height: 5.4rem;
+}
+.docs {
+  height: 6rem;
+  width: 7rem;
+  min-width: 7rem;
+  max-height: 6rem;
+}
+.ultravioleta {
+  height: 6rem;
+  width: 7rem;
+  min-width: 7rem;
+  max-height: 6rem;
+}
+.Luz {
+  height: 9rem;
+  width: 7rem;
+  min-width: 7rem;
+  max-height: 9rem;
+}
+.camara {
+  height: 6rem;
+  width: 7rem;
+  min-width: 7rem;
+  max-height: 6rem;
+}
+.EMF {
+  height: 6rem;
+  width: 7rem;
+  min-width: 7rem;
+  max-height: 6rem;
+}
+.spirit {
+  height: 6rem;
+  width: 7rem;
+  min-width: 7rem;
+  max-height: 6rem;
+}
+.termometro {
+  height: 6rem;
+  width: 7rem;
+  min-width: 7rem;
+  max-height: 6rem;
+}
+.libro {
+  height: 6rem;
+  width: 7rem;
+  min-width: 7rem;
+  max-height: 6rem;
+}
+/*ppasamos a uno de los html llamado jackson*/
+.Jacksontexto {
+  color: white;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 2.3rem;
+  margin: 3rem;
+}
+.casaarbol {
+  width: 50%;
+  margin-top: 2rem;
+}
+.iepa {
+  display: flex;
+}
+.casaja{
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  align-items: center;
+}
+/*Este es el html de los fantasmas con un scroll para ver cadas tipo */
+.scrollfantasmas {
+
+  background-position: 0 -40rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40rem;
+  width: 100%;
+  display: flex;
+  overflow-x: scroll;
+  margin-top: 4rem;
+}
+.contenedorfantasmas img {
+  margin-left: 15rem;
+  height: 100%;
+}
+.contenedorfantasmas {
+  display: flex;
+}
+.contenedorfantasmas p {
+  margin-top: 40%;
+  font-size: 3rem;
+  width: 40%;
+  color: whitesmoke;
+}
+
+.fantasmicos {
+  font-family: "Permanent Marker", cursive;
+  text-align: center;
+  color: white;
+  font-size: 6rem;
+  background-color: black;
+}
+
+.negro {
+  background-image: url(img/f.elconfidencial.com_original_d9e_66d_793_d9e66d793adbc994841e60850a17e61c.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fondofantasma {
+  background-image: url(img/R.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*Este es otro de los html con un enlkace a una ubicacion*/
+.Waltertexto {
+  font-family:'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+  width: 80%;
+  margin-left: 2rem;
+  justify-content: center;
+  text-align: justify;
+  color: white;
+}
+.isladelasmuñecas {
+ display: flex;
+ justify-content: center;
+  width: 100%;
+}
+/*Otro HTML con el video*/
+.karentexto {
+  font-size: 1.5rem;
+  width: 80%;
+  color: white;
+  margin-left: 2rem;
+  justify-content: center;
+  text-align: justify;
+}
+ul {
+  font-family: "Permanent Marker", cursive;
+  font-size: 1.5rem;
+}
+.titulokaren {
+  justify-content: center;
+  font-family: "Permanent Marker", cursive;
+  margin-left: 40%;
+  margin-bottom: 4rem;
+}
+video {
+  width: 50%;
+  margin-left: 25%;
+}
+/*Aqui esta el css de el formulario*/
+.Formulario img {
+  height: 20rem;
+  width: 10rem;
+  float: right;
+  margin-right: 10rem;
+  margin-top: -9rem;
+}
+
+.Formulario-div {
+  font-family: "Permanent Marker", cursive;
+  color: rgb(255, 255, 255);
+  margin-left: 20%;
+}
+label {
+  font-size: 1rem;
+}
+input {
+  height: 2rem;
+  margin-top: 3rem;
+}
+.formulario-titulo {
+  margin-left: 43%;
+}
+.texto-formulario {
+  margin-top: 5rem;
+  margin-left: 8rem;
+  height: 20rem;
+  width: 50%;
+  background-image: url(img/Captura\ de\ pantalla\ 2023-12-01\ 140854.jpg);
+  background-size: cover;
+}
+.guardar {
+  display: flex;
+  justify-content: center;
+  height: 5rem;
+  width: 15rem;
+  font-size: 2rem;
+}
+/*Este es el ultimo html restante que contiene los audios  */
+.laurentexto {
+  font-size: 2rem;
+  font-family:'Times New Roman', Times, serif;
+  color: white;
+}
+.cuadroaudio{
+  display: flex;
+  float:left;
+  justify-content: center;
+}

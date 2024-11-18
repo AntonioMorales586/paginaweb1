@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="shutcut icon"
+      sizes="32x32"
+      href="img/favicon-32x32-removebg-preview.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enigma Paranormal Antonio Jesús</title>
+  </head>
+  <body class="portada">
+    <div class="menu">
+      <button><a href="Fantasmas.html">Fantasmas</a></button
+      ><button><a href="Objetos.html">Objetos</a></button
+      ><button><a href="Formulario.html">Formulario</a></button
+      ><a class="logo" href="Portada.html"
+        ><img
+          class="phasmo"
+          src="img/debnwtd-10340a16-e200-4b3c-a8cc-475d528ea8c7.png"
+      /></a>
+    </div>
+    <h1 class="titulo">Antonio Jesus Morales Cazorla</h1>
+    <h2 class="titulo2">Haz click en las imagenes para ver las historias</h2>
+    <div class="mitad">
+      <div class="Jackson1">
+      </div>
+      <a href="Jackson.html"><img class="historia1" id="historia1" onclick="historia1()" src="img/19-1024x576-removebg-preview.png"></img></a>
+    </div>
+    <div id="mitad" class="mitad">
+      <div class="Jackson1">
+      </div>
+      <a href="Walter.html"><img class="historia2" id="historia2" onclick="historia1()" src="img/f1b82742f0d081eec8e6a596cbcfd61c.jpg"></img></a>
+      </img>
+    </div>
+    <h1 class="Verhistorias">Ver más historias</h1>
+    <div
+      class="cambiarpagina"
+      id="cambiarpagina"
+      onclick="cambiarpagina()"
+    ></div>
+    <a href="Karen.html"><img id="historia3" onclick="historia3" src="img/raf_360x360_075_t_fafafa_ca443f4786-removebg-preview.png" hidden></img></a>
+    <a href="Lauren.html"><img id="historia4" onclick="historia4" src="img/cassette-removebg-preview.png" hidden></img></a>
+    <script>
+function cambiarpagina() {
+    document.getElementById("historia2").src = document.getElementById("historia3").src;
+    document.getElementById("historia1").src = document.getElementById("historia4").src;
+    document.getElementById("historia1").parentElement.href = "Lauren.html";
+    document.getElementById("historia2").parentElement.href = "Karen.html";
+  }   
+    </script>
+  </body>
+</html>
