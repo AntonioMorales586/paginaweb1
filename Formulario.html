@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="shutcut icon"
+      sizes="32x32"
+      href="img/favicon-32x32-removebg-preview.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enigma Paranormal</title>
+  </head>
+  <!--Este es el formulario donde crearas un usuario y contaras tu succeso paranormal-->
+  <body id="Formulario">
+    <div class="menu">
+      <button><a href="Fantasmas.html">Fantasmas</a></button
+      ><button><a href="Objetos.html">Objetos</a></button
+      ><button><a href="Formulario.html">Formulario</a></button
+      ><a class="logo" href="Portada.html"
+        ><img
+          class="phasmo"
+          src="img/debnwtd-10340a16-e200-4b3c-a8cc-475d528ea8c7.png"
+      /></a>
+    </div>
+    <div class="Formulario-div">
+      <form
+        action="http://www.informaticasaladillo.es/mostrar.php"
+        method="post"
+        id="formulario"
+      >
+        <div class="Nombre">
+          <div>
+            <label for="nombre">Nombre</label
+            ><input type="nombre" required placeholder="(nombre)" /><br />
+          </div>
+          <div>
+            <label for="Contraseña">Contraseña</label
+            ><input type="password" required placeholder="(contraseña)" /><br />
+          </div>
+          <div>
+            <label for="email">Email</label
+            ><input type="email" placeholder="(email)" />
+          </div>
+        </div>
+        <div>
+          <textarea
+            class="texto-formulario"
+            name="Texto-fomulario"
+            cols="30"
+            rows="10"
+            placeholder="(Cuentanos Tu historia)"
+          ></textarea>
+        </div>
+        <input class="guardar" type="submit" value="Guardar" />
+      </form>
+    </div>
+  </body>
+</html>
